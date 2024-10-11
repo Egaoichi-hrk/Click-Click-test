@@ -8,6 +8,13 @@ from streamlit_extras.stylable_container import stylable_container
 
 #実行させるには（streamlit run C:\ウェブ企業\開発コード\WUM\pages\基本分析.py）
 
+image = Image.open("Click Click LOGO 1.jpg")
+st.set_page_config(
+    page_title = "基本分析",
+    page_icon = image,
+)
+
+
 #######
 
 st.header('Click Click')
