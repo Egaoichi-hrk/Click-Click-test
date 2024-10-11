@@ -21,13 +21,6 @@ st.set_page_config(
 ######
 st.subheader('基本分析')
 ########
-st.markdown(
-    """
-    <br>
-    """
-,unsafe_allow_html=True)
-
-######
 
 with st.form(key='profile_form1'):
     value = st.text_input('値(スペースで区切って入力してください)')
@@ -127,7 +120,6 @@ st.write('・不具合等ございましたらお手数ですがTOPページ内�
 
 
 
-st.link_button("TOP","")
 
 
 
